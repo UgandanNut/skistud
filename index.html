@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="HTML5 Template Gavi Multi-Purpose themeforest" />
+    <meta name="description" content="Gavi - Multi-Purpose HTML5 Template" />
+    <meta name="author" content="" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <!-- Title  -->
+    <title>Ski Studios</title>
+
+    <!-- Favicon -->
+    <link rel="icon png" href="assets/imgs/logo-light.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="assets/css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/scss/style.scss" />
+
+    <!-- Email.JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init("LNB1bhWRv90GFNzEL");
+      })();
+    </script>
+    <script type="text/javascript">
+      window.onload = function () {
+        document.getElementById("contact-form").addEventListener("submit", function (event) {
+          event.preventDefault();
+          // these IDs from the previous steps
+          emailjs.sendForm("service_ag250og", "template_d2tv2le", this).then(
+            function () {
+              console.log("SUCCESS!");
+              alert("Your message has been sent successfully.");
+            },
+            function (error) {
+              alert("Failed to send your message ", error?.text);
+              console.log("FAILED...", error);
+            }
+          );
+        });
+      };
+    </script>
+  </head>
+
+  <body class="sub-bg" data-scroll="true">
+    <!-- ==================== Start Loading ==================== -->
+
+    <div class="loader-wrap">
+      <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
+        <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+      </svg>
+
+      <div class="loader-wrap-heading">
+        <div class="load-text">
+          <span>L</span>
+          <span>o</span>
+          <span>a</span>
+          <span>d</span>
+          <span>i</span>
+          <span>n</span>
+          <span>g</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor"></div>
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+    <!-- ==================== Start lines ==================== -->
+
+    <div class="lines">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- ==================== End lines ==================== -->
+
+    <!-- ==================== End Loading ==================== -->
+
+    <div class="parallax" id="home" data-scroll-index="0">
+      <div class="parallax__layer parallax__layer__0">
+        <img src="assets/imgs/parallax/Layer 1.png" />
+      </div>
+      <div class="parallax__layer parallax__layer__1">
+        <img src="assets/imgs/parallax/Layer 2.png" />
+      </div>
+      <div class="parallax__layer parallax__layer__2">
+        <img src="assets/imgs/parallax/Layer 3.png" />
+      </div>
+      <div class="parallax__layer parallax__layer__3">
+        <img src="assets/imgs/parallax/Layer 4.png" />
+      </div>
+      <div class="parallax__layer parallax__layer__4">
+        <img src="assets/imgs/parallax/Layer 5.png" />
+      </div>
+      <div class="parallax__layer parallax__layer__5">
+        <img src="assets/imgs/parallax/Layer 6.png" />
+      </div>
+      <div class="parallax__layer parallax__layer__6">
+        <img src="" />
+      </div>
+      <div class="parallax__cover">
+        <!-- ==================== Start contact button ==================== -->
+
+        <div class="contact-fixed-butn">
+          <div class="butn-presv">
+            <a href="#0" class="butn butn-sm bg-white skew" data-scroll-nav="5">
+              <span class="text-dark">Contact Us</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- ==================== End contact button ==================== -->
+
+        <!-- ==================== Start Navbar ==================== -->
+
+        <div class="nav-top pt-30 pb-30">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 valign">
+                <div class="social text-center full-width">
+                  <a href="https://www.instagram.com/skistudios_"><i class="fab fa-instagram"></i></a>
+                  <a href="https://www.facebook.com/skistudiosnbtx"><i class="fab fa-facebook"></i></a>
+                  <a href="https://www.twitter.com/skistudios_"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/ethan-pszanowski-038652293/"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="col-md-4 valign">
+                <a href="#0" class="logo icon-img-60">
+                  <!--<img src="assets/imgs/logo-dark.png" alt="">-->
+                </a>
+              </div>
+              <div class="col-md-4 valign">
+                <div class="full-width info">
+                  <div class="d-flex justify-content-end">
+                    <a href="mailto:contact@skistudios.net">
+                      <span class="sub-title fz-12">contact@skistudios.net</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nav-butn">
+              <span class="pe-7s-menu"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== End Navbar ==================== -->
+
+        <main class="container">
+          <!-- ==================== Start Intro ==================== -->
+
+          <!-- ==================== End Intro ==================== -->
+
+          <!-- ==================== Start Navbar ==================== -->
+
+          <nav class="navbar">
+            <div class="row justify-content-end rest">
+              <div class="col-lg-8 rest">
+                <!-- navbar links -->
+                <ul class="navbar-nav main-bg d-flex justify-content-end">
+                  <li class="nav-item">
+                    <a href="#home" data-scroll-nav="0"><span>Home</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#0" data-scroll-nav="1"><span>About</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#0" data-scroll-nav="2"><span>Services</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#0" data-scroll-nav="3"><span>Portfolio</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#0" data-scroll-nav="4"><span>Price</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#0" data-scroll-nav="5"><span>Contact</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!-- ==================== End Navbar ==================== -->
+
+          <section class="in-box">
+            <div class="sec-box services section-padding bord-thin-bottom" data-scroll-index="1" id="about">
+              <section class="intro-profile md-mb50">
+                <div class="row rest">
+                  <div class="col-lg-4 box-img main-bg">
+                    <div class="cont valign">
+                      <div class="full-width">
+                        <div class="img">
+                          <img src="assets/imgs/header/profile.jpg" alt="" />
+                          <!--<span class="icon">
+                                            <img src="assets/imgs/header/icon1.png" alt="">
+                                        </span>
+                                        <span class="icon">
+                                            <img src="assets/imgs/header/icon2.png" alt="">
+                                        </span>
+                                        <span class="icon">
+                                            <img src="assets/imgs/header/icon4.png" alt="">
+                                        </span>-->
+                        </div>
+                        <div class="info text-center mt-30">
+                          <h5>Ethan Pszanowski</h5>
+                          <p class="fz-13 text-u">Freelance Audio Engineer</p>
+                        </div>
+                        <div class="social text-center mt-20">
+                          <a href="https://www.instagram.com/skistudios_"><i class="fab fa-instagram"></i></a>
+                          <a href="https://www.facebook.com/skistudiosnbtx"><i class="fab fa-facebook"></i></a>
+                          <a href="https://www.twitter.com/skistudios_"><i class="fab fa-twitter"></i></a>
+                          <a href="https://www.linkedin.com/in/ethan-pszanowski-038652293/"
+                            ><i class="fab fa-linkedin-in"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 content main-bg">
+                    <h1>Hello, I’m <span class="main-color">Ethan Pszanowski</span></h1>
+                    <p>
+                      Ski Studios, founded in 2023 by Ethan Pszanowski, is a premier audio engineering service dedicated
+                      to the art of capturing, refining, and perfecting the sound of music. We provide our artists with
+                      the tools and experience necessary to truly capture their vision. At Ski Studios, we understand
+                      that each artist has a unique vision for their music. That's why we pride ourselves on working
+                      diligently with our clients. Equipped with industry-standard equipment and software, Ski Studios
+                      leaves no stone unturned when it comes to delivering uncompromising audio quality. From pressing
+                      records to bouncing the master, we pay careful attention to every detail throughout the recording,
+                      editing, mixing, and mastering processes. With a dedication to excellence and a passion for the
+                      craft, Ski Studios is the destination for artists looking to unleash the full potential of their
+                      music and make a lasting impact in the industry. Contact us to start your next project!
+                    </p>
+                    <div class="stauts mt-80">
+                      <div class="d-flex align-items-center">
+                        <!--<div class="mr-40">
+                                        <div class="d-flex align-items-center">
+                                            <h2>14</h2>
+                                            <p>Years <br> of Experance</p>
+                                        </div>
+                                    </div>
+                                    <div class="mr-40">
+                                        <div class="d-flex align-items-center">
+                                            <h2>6k</h2>
+                                            <p>Clients <br> Worldwide</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="butn-presv">
+                                            <a href="#0" class="butn butn-md butn-bord radius-5 skew">
+                                                <span>Dwonload C.V</span>
+                                            </a>
+                                        </div>
+                                    </div>-->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <!-- ==================== Start Skills ==================== -->
+
+            <div class="sec-box skills section-padding bord-thin-bottom">
+              <div class="row">
+                <div class="col-lg-4 valign">
+                  <div class="sec-head md-mb80">
+                    <h6 class="sub-title opacity-7 mb-15">My Skills</h6>
+                    <h3><span class="main-color">Awards</span> & Recognitions</h3>
+                  </div>
+                </div>
+                <div class="col-lg-8">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="item mb-30">
+                        <div class="d-flex align-items-center mb-30">
+                          <div class="mr-30">
+                            <div class="img icon-img-40">
+                              <img src="assets/imgs/resume/s1.png" alt="" />
+                            </div>
+                          </div>
+                          <div>
+                            <h6 class="fz-18">Recording</h6>
+                          </div>
+                        </div>
+                        <div class="skill-progress">
+                          <span class="progres" data-value="100%"></span>
+                        </div>
+                        <span class="value">5yrs</span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="item mb-30">
+                        <div class="d-flex align-items-center mb-30">
+                          <div class="mr-30">
+                            <div class="img icon-img-40">
+                              <img src="assets/imgs/resume/s2.png" alt="" />
+                            </div>
+                          </div>
+                          <div>
+                            <h6 class="fz-18">Editing</h6>
+                          </div>
+                        </div>
+                        <div class="skill-progress">
+                          <span class="progres" data-value="100%"></span>
+                        </div>
+                        <span class="value">2yrs</span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="item sm-mb30">
+                        <div class="d-flex align-items-center mb-30">
+                          <div class="mr-30">
+                            <div class="img icon-img-40">
+                              <img src="assets/imgs/resume/s3.png" alt="" />
+                            </div>
+                          </div>
+                          <div>
+                            <h6 class="fz-18">Mixing</h6>
+                          </div>
+                        </div>
+                        <div class="skill-progress">
+                          <span class="progres" data-value="100%"></span>
+                        </div>
+                        <span class="value">2yrs</span>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="item">
+                        <div class="d-flex align-items-center mb-30">
+                          <div class="mr-30">
+                            <div class="img icon-img-40">
+                              <img src="assets/imgs/resume/s4.png" alt="" />
+                            </div>
+                          </div>
+                          <div>
+                            <h6 class="fz-18">Mastering</h6>
+                          </div>
+                        </div>
+                        <div class="skill-progress">
+                          <span class="progres" data-value="100%"></span>
+                        </div>
+                        <span class="value">2yrs</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--
+                        <div class="awards mt-100">
+                            <div class="row md-marg">
+                                <div class="col-lg-4">
+                                    <div class="award-item sub-bg md-mb30">
+                                        <div class="d-flex">
+                                            <div>
+                                                <span>01</span>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <span>2019</span>
+                                            </div>
+                                        </div>
+                                        <div class="img icon-img-100 mt-80 mb-30">
+                                            <img src="assets/imgs/awards/1.png" alt="">
+                                        </div>
+                                        <h6>02x Designer Award</h6>
+                                        <span class="sub-title main-color mt-10">Nominee</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="award-item sub-bg md-mb30">
+                                        <div class="d-flex">
+                                            <div>
+                                                <span>01</span>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <span>2021</span>
+                                            </div>
+                                        </div>
+                                        <div class="img icon-img-100 mt-80 mb-30">
+                                            <img src="assets/imgs/awards/2.png" alt="">
+                                        </div>
+                                        <h6>02x Designer Award</h6>
+                                        <span class="sub-title main-color mt-10">Winner</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="award-item sub-bg">
+                                        <div class="d-flex">
+                                            <div>
+                                                <span>01</span>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <span>2022</span>
+                                            </div>
+                                        </div>
+                                        <div class="img icon-img-100 mt-80 mb-30">
+                                            <img src="assets/imgs/awards/3.png" alt="">
+                                        </div>
+                                        <h6>02x Designer Award</h6>
+                                        <span class="sub-title main-color mt-10">Ruuners Up</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    -->
+            </div>
+
+            <!-- ==================== End Skills ==================== -->
+
+            <!-- ==================== Start Services ==================== -->
+
+            <div class="sec-box services section-padding bord-thin-bottom" data-scroll-index="2" id="services">
+              <div class="sec-head mb-80">
+                <div class="row justify-content-center">
+                  <div class="col-lg-6 text-center">
+                    <h6 class="sub-title opacity-7 mb-15">My Services</h6>
+                    <h3>Bring <span class="main-color">your music</span> to life.</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="item mb-40">
+                    <span class="icon-img-70 mb-30 opacity-7">
+                      <img src="assets/imgs/serv-img/1.png" alt="" />
+                    </span>
+                    <h6 class="text-u ls1 mb-15">Audio Recording</h6>
+                    <p>
+                      Great recordings are essential for a great mix. Record at the TRCOA Campus
+                      <a href="https://www.stinsonstudios.com" style="color: #bc1823">Stinson Studios</a> using top line
+                      equipment in expert designed rooms!
+                    </p>
+                    <div class="bord-color"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="item mb-40">
+                    <span class="icon-img-70 mb-30 opacity-7">
+                      <img src="assets/imgs/serv-img/2.png" alt="" />
+                    </span>
+                    <h6 class="text-u ls1 mb-15">Audio Editing</h6>
+                    <p>
+                      Editing is the first step to a perfect mix! Clip gaining ensures everything is at a good level
+                      going in, pitch adjustment cleans up the vocals, and time alightment gets your song feeling tight.
+                    </p>
+                    <div class="bord-color"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="item sm-mb40">
+                    <span class="icon-img-70 mb-30 opacity-7">
+                      <img src="assets/imgs/serv-img/3.png" alt="" />
+                    </span>
+                    <h6 class="text-u ls1 mb-15">Mixing</h6>
+                    <p>
+                      The mixing phases brings your song to life. EQ and compression clean up your recordings, while
+                      effects like delays and reverbs breath life into the mix! This is where your song gets its sound.
+                    </p>
+                    <div class="bord-color"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="item">
+                    <span class="icon-img-70 mb-30 opacity-7">
+                      <img src="assets/imgs/serv-img/4.png" alt="" />
+                    </span>
+                    <h6 class="text-u ls1 mb-15">Mastering</h6>
+                    <p>
+                      Mastering is the icing on the cake! A little EQ here, a little compression here, and a nice volume
+                      boost to top it off, ensuring your mix is radio ready!
+                    </p>
+                    <div class="bord-color"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ==================== End Services ==================== -->
+
+            <!-- ==================== Start Portfolio ==================== -->
+
+            <div class="sec-box portfolio section-padding" data-scroll-index="3" id="portfolio">
+              <div class="sec-head mb-30">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h6 class="sub-title opacity-7 mb-15">Our Portfolio</h6>
+                    <h3>
+                      Look at my work & <br/> 
+                      give us <span class="main-color">your feedback</span>
+                    </h3>
+                    <section class="portfolio-wrapper">
+                      <!-- Audio 1 -->
+                      <article class="music-container">
+                        <div class="controls">
+                          <input type="radio" name="controls" id="btn-play" />
+                          <label for="btn-play" class="lbl-btn-play play-1"><span></span></label>
+
+                          <input type="radio" name="controls" id="btn-pause" />
+                          <label for="btn-pause" class="lbl-btn-pause pause-1"><span></span></label>
+
+                          <label class="lbl-btn-reset reset-1"><span></span></label>
+                        </div>
+
+                        <div class="cover">
+                          <div class="static-card">
+                            <img src="http://f1.bcbits.com/img/a1312167393_16.jpg" alt="" />
+                          </div>
+                          <div class="flip-card">
+                            <img src="http://f1.bcbits.com/img/a1312167393_16.jpg" alt="" />
+                          </div>
+                        </div>
+                      </article>
+                      <!-- Audio 2 -->
+                      <article class="music-container">
+                        <div class="controls">
+                          <input type="radio" name="controls" id="btn-play" />
+                          <label for="btn-play" class="lbl-btn-play play-2"><span></span></label>
+
+                          <input type="radio" name="controls" id="btn-pause" />
+                          <label for="btn-pause" class="lbl-btn-pause pause-2"><span></span></label>
+
+                          <label class="lbl-btn-reset reset-2"><span></span></label>
+                        </div>
+
+                        <div class="cover">
+                          <div class="static-card">
+                            <img src="http://f1.bcbits.com/img/a1312167393_16.jpg" alt="" />
+                          </div>
+                          <div class="flip-card">
+                            <img src="http://f1.bcbits.com/img/a1312167393_16.jpg" alt="" />
+                          </div>
+                        </div>
+                      </article>
+                      <!-- Audio 3 -->
+                      <article class="music-container">
+                        <div class="controls">
+                          <input type="radio" name="controls" id="btn-play" />
+                          <label for="btn-play" class="lbl-btn-play play-3"><span></span></label>
+
+                          <input type="radio" name="controls" id="btn-pause" />
+                          <label for="btn-pause" class="lbl-btn-pause pause-3"><span></span></label>
+
+                          <label class="lbl-btn-reset reset-3"><span></span></label>
+                        </div>
+
+                        <div class="cover">
+                          <div class="static-card">
+                            <img src="http://f1.bcbits.com/img/a1312167393_16.jpg" alt="" />
+                          </div>
+                          <div class="flip-card">
+                            <img src="http://f1.bcbits.com/img/a1312167393_16.jpg" alt="" />
+                          </div>
+                        </div>
+                      </article>
+                    </section>
+                    <p class="info">Hover/Click on album cover to show controls</p>
+                    <!-- <div class="recordingSEC">
+                      <div class="rec1">
+                        <img id="rec1" src="record-removebg-preview.png" />
+                      </div>
+
+                      <div class="rec2">
+                        <img id="rec2" src="record2-removebg-preview.png" />
+                      </div>
+
+                      <div class="aud1">
+                        <audio controls id="aud1">
+                          <source src="horse.ogg" type="audio/ogg" />
+                        </audio>
+                      </div>
+
+                      <div class="T1">
+                        <p onclick="T1click()">1</p>
+                      </div>
+
+                      <div class="T2">
+                        <p onclick="T2click()">2</p>
+                      </div>
+
+                      <div class="aud2">
+                        <audio controls id="aud2">
+                          <source src="horse.ogg" type="audio/ogg" />
+                        </audio>
+                      </div>
+                    </div> -->
+                  </div>
+                  <div class="col-lg-6 valign"></div>
+
+                  <!--TODO: Add Portfolio-->
+                </div>
+              </div>
+            </div>
+
+            <!-- ==================== End Portfolio ==================== -->
+
+            <!-- ==================== Start Testimonials ==================== -->
+
+            <!--div class="sec-box testimonials section-padding">
+                        <div class="pad-left">
+                            <div class="sec-head mb-80">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <h6 class="sub-title opacity-7 mb-15">Testimonials</h6>
+                                        <h3>Trusted by <span class="main-color">Hundered Clients</span></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-9">
+                                    <div class="testim-swiper" data-carousel="swiper" data-item="1" data-space="30"
+                                        data-speed="1000">
+                                        <div id="content-carousel-container-unq-testim" class="swiper-container"
+                                            data-swiper="container">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <div class="item d-flex">
+                                                        <div>
+                                                            <div class="icon-img-60 mr-60">
+                                                                <img src="assets/imgs/svg-assets/quote.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="cont mb-30">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="rate-stars fz-12">
+                                                                        <span class="rate main-color">
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                        </span>
+                                                                        <span class="fz-12 opacity-7 ml-10">(71 Reviews)</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="fz-20 mt-15">We have purchased well into the
+                                                                    thousands
+                                                                    of items, but this is without doubt one of the best we’ve
+                                                                    have
+                                                                    been
+                                                                    lucky enough to work on, the attention to detail apparent
+                                                                    throughout, and the delivery is impressively intuitive.</p>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div>
+                                                                    <div class="img">
+                                                                        <img src="assets/imgs/testim/1.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ml-30">
+                                                                    <div class="info">
+                                                                        <h6 class="main-color">Leonard Heiser</h6>
+                                                                        <span class="fz-13 mt-10 opacity-8">Envato
+                                                                            customer</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="item d-flex">
+                                                        <div>
+                                                            <div class="icon-img-60 mr-60">
+                                                                <img src="assets/imgs/svg-assets/quote.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="cont mb-30">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="rate-stars fz-12">
+                                                                        <span class="rate main-color">
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                        </span>
+                                                                        <span class="fz-12 opacity-7 ml-10">(71 Reviews)</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="fz-20 mt-15">We have purchased well into the
+                                                                    thousands
+                                                                    of items, but this is without doubt one of the best we’ve
+                                                                    have
+                                                                    been
+                                                                    lucky enough to work on, the attention to detail apparent
+                                                                    throughout, and the delivery is impressively intuitive.</p>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div>
+                                                                    <div class="img">
+                                                                        <img src="assets/imgs/testim/2.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ml-30">
+                                                                    <div class="info">
+                                                                        <h6 class="main-color">Leonard Heiser</h6>
+                                                                        <span class="fz-13 mt-10 opacity-8">Envato
+                                                                            customer</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="item d-flex">
+                                                        <div>
+                                                            <div class="icon-img-60 mr-60">
+                                                                <img src="assets/imgs/svg-assets/quote.png" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <div class="cont mb-30">
+                                                                <div class="d-flex align-items-center">
+                                                                    <div class="rate-stars fz-12">
+                                                                        <span class="rate main-color">
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                        </span>
+                                                                        <span class="fz-12 opacity-7 ml-10">(71 Reviews)</span>
+                                                                    </div>
+                                                                </div>
+                                                                <p class="fz-20 mt-15">We have purchased well into the
+                                                                    thousands
+                                                                    of items, but this is without doubt one of the best we’ve
+                                                                    have
+                                                                    been
+                                                                    lucky enough to work on, the attention to detail apparent
+                                                                    throughout, and the delivery is impressively intuitive.</p>
+                                                            </div>
+                                                            <div class="d-flex align-items-center">
+                                                                <div>
+                                                                    <div class="img">
+                                                                        <img src="assets/imgs/testim/3.jpg" alt="">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="ml-30">
+                                                                    <div class="info">
+                                                                        <h6 class="main-color">Leonard Heiser</h6>
+                                                                        <span class="fz-13 mt-10 opacity-8">Envato
+                                                                            customer</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 d-flex align-items-end justify-content-end">
+                                    <div class="swiper-controls testim-controls arrow-out d-flex mr-20 ml-auto">
+                                        <div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button"
+                                            aria-label="Previous slide" aria-disabled="true">
+                                            <span class="left">
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.2031 10.3281L11.5781 15.9531C11.535 15.9961 11.4839 16.0303 11.4276 16.0536C11.3713 16.077 11.3109 16.089 11.25 16.089C11.1891 16.089 11.1287 16.077 11.0724 16.0536C11.0161 16.0303 10.965 15.9961 10.9219 15.9531C10.8788 15.91 10.8446 15.8588 10.8213 15.8025C10.798 15.7462 10.786 15.6859 10.786 15.6249C10.786 15.564 10.798 15.5036 10.8213 15.4473C10.8446 15.391 10.8788 15.3399 10.9219 15.2968L15.7422 10.4687H3.125C3.00068 10.4687 2.88145 10.4193 2.79354 10.3314C2.70564 10.2435 2.65625 10.1242 2.65625 9.99993C2.65625 9.87561 2.70564 9.75638 2.79354 9.66847C2.88145 9.58056 3.00068 9.53118 3.125 9.53118H15.7422L10.9219 4.70305C10.8349 4.61603 10.786 4.498 10.786 4.37493C10.786 4.25186 10.8349 4.13383 10.9219 4.0468C11.0089 3.95978 11.1269 3.91089 11.25 3.91089C11.3731 3.91089 11.4911 3.95978 11.5781 4.0468L17.2031 9.6718C17.2476 9.71412 17.2829 9.76503 17.3071 9.82143C17.3313 9.87784 17.3438 9.93856 17.3438 9.99993C17.3438 10.0613 17.3313 10.122 17.3071 10.1784C17.2829 10.2348 17.2476 10.2857 17.2031 10.3281Z"
+                                                        fill="currentColor"></path>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                        <div class="swiper-button-next ml-50" tabindex="0" role="button" aria-label="Next slide"
+                                            aria-disabled="false">
+                                            <span class="right">
+                                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M17.2031 10.3281L11.5781 15.9531C11.535 15.9961 11.4839 16.0303 11.4276 16.0536C11.3713 16.077 11.3109 16.089 11.25 16.089C11.1891 16.089 11.1287 16.077 11.0724 16.0536C11.0161 16.0303 10.965 15.9961 10.9219 15.9531C10.8788 15.91 10.8446 15.8588 10.8213 15.8025C10.798 15.7462 10.786 15.6859 10.786 15.6249C10.786 15.564 10.798 15.5036 10.8213 15.4473C10.8446 15.391 10.8788 15.3399 10.9219 15.2968L15.7422 10.4687H3.125C3.00068 10.4687 2.88145 10.4193 2.79354 10.3314C2.70564 10.2435 2.65625 10.1242 2.65625 9.99993C2.65625 9.87561 2.70564 9.75638 2.79354 9.66847C2.88145 9.58056 3.00068 9.53118 3.125 9.53118H15.7422L10.9219 4.70305C10.8349 4.61603 10.786 4.498 10.786 4.37493C10.786 4.25186 10.8349 4.13383 10.9219 4.0468C11.0089 3.95978 11.1269 3.91089 11.25 3.91089C11.3731 3.91089 11.4911 3.95978 11.5781 4.0468L17.2031 9.6718C17.2476 9.71412 17.2829 9.76503 17.3071 9.82143C17.3313 9.87784 17.3438 9.93856 17.3438 9.99993C17.3438 10.0613 17.3313 10.122 17.3071 10.1784C17.2829 10.2348 17.2476 10.2857 17.2031 10.3281Z"
+                                                        fill="currentColor"></path>
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="icon-qoute">
+                            <i class="fas fa-quote-left"></i>
+                        </span>
+                    </div>-->
+
+            <!-- ==================== End Testimonials ==================== -->
+
+            <!-- ==================== Start price ==================== -->
+
+            <div class="sec-box price section-padding" data-scroll-index="4" id="price">
+              <div class="sec-head md-mb80 sm-mb30">
+                <div class="row justify-content-center">
+                  <div class="col-lg-6 text-center">
+                    <h6 class="sub-title opacity-7 mb-15">Best Pricing</h6>
+                    <br />
+                    <h3><span class="main-color">Flexible</span> Pricing Plan</h3>
+                  </div>
+                </div>
+              </div>
+
+              <a class="ex-sec" href="#0" data-scroll-nav="5">
+                <div class="recordingT">
+                  <h3>Recording</h3>
+                </div>
+                <div class="ex-sec-left">
+                  <h6><span>$150</span> / 10 hours</h6>
+
+                  <p><span>$20</span> / hour</p>
+                </div>
+                <div class="ex-sec-right">
+                  <p>
+                    Great recordings are essential for a great mix. Record at <br />the TRCOA Campus Stinson Studios
+                    using top line equipment in expert<br />designed rooms!
+                  </p>
+                </div>
+              </a>
+
+              <div class="row md-marg">
+                <div class="col-lg-4 valign">
+                  <div class="item full-width md-mb50 sm-mb10">
+                    <div class="content">
+                      <div class="cus_price_top">
+                        <h3>Editing</h3>
+                        <h6><span>$50</span> / song</h6>
+                      </div>
+                      <div class="feat">
+                        <ul class="rest">
+                          <li><i class="fas fa-check"></i> <span>Strip Silence</span></li>
+                          <li><i class="fas fa-check"></i> <span>Clip Gain</span></li>
+                          <li><i class="fas fa-check"></i> <span>Time Alignment</span></li>
+                          <li><i class="fas fa-check"></i> <span>Pitch Correction</span></li>
+                        </ul>
+                      </div>
+                      <div class="text-center mt-50">
+                        <div class="butn-presv">
+                          <a href="#0" data-scroll-nav="5" class="butn butn-md butn-bord radius-5 text-u full-width">
+                            <span>Get Started</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 valign">
+                  <div class="item full-width md-mb50 sm-mb10">
+                    <div class="cus_price_top">
+                      <h3>Mixing</h3>
+                      <h6><span>$100</span> / song</h6>
+                    </div>
+
+                    <div class="content">
+                      <div class="feat">
+                        <ul class="rest">
+                          <li><i class="fas fa-check"></i> <span>Level Balance</span></li>
+                          <li><i class="fas fa-check"></i> <span>EQ Adjustment</span></li>
+                          <li><i class="fas fa-check"></i> <span>Compression</span></li>
+                          <li><i class="fas fa-check"></i> <span>Space & Effects</span></li>
+                          <li><i class="fas fa-check"></i> <span>Automation</span></li>
+                        </ul>
+                      </div>
+                      <div class="text-center mt-50">
+                        <div class="butn-presv">
+                          <a href="#0" data-scroll-nav="5" class="butn butn-md butn-bord radius-5 text-u full-width">
+                            <span>Get Started</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 valign">
+                  <div class="item full-width">
+                    <div class="cus_price_top">
+                      <h3>Mastering</h3>
+                      <h6><span>$50</span> / song</h6>
+                    </div>
+
+                    <div class="content">
+                      <div class="feat">
+                        <ul class="rest">
+                          <li><i class="fas fa-check"></i> <span>Blanket EQ</span></li>
+                          <li><i class="fas fa-check"></i> <span>Glue Compression</span></li>
+                          <li><i class="fas fa-check"></i> <span>Console Saturation</span></li>
+                          <li><i class="fas fa-check"></i> <span>Volume Maxamizing Limiting</span></li>
+                        </ul>
+                      </div>
+                      <div class="text-center mt-50">
+                        <div class="butn-presv">
+                          <a href="#0" data-scroll-nav="5" class="butn butn-md butn-bord radius-5 text-u full-width">
+                            <span>Get Started</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <a class="ex-sec" href="#0" data-scroll-nav="5">
+                <div class="packageT">
+                  <h3>Full Package</h3>
+                </div>
+                <div class="ex-sec-left">
+                  <div class="packP">
+                    <p>Editing, Mixing, and Mastering</p>
+                  </div>
+                  <h6><span>$100</span> / song</h6>
+                </div>
+
+                <div class="ex-sec-right">
+                  <p>
+                    Take your raw recordings and turn them into a radio ready, competitve<br />
+                    musical masterpiece! This package is a nice discount on editing mixing <br />and mastering, to
+                    ensure your song is perfect for release!
+                  </p>
+                </div>
+              </a>
+
+              <!-- ==================== End price ==================== -->
+
+              <!-- ==================== Start Contact ==================== -->
+
+              <div
+                class="sec-box contact section-padding bord-thin-top"
+                data-scroll-index="5"
+                style="border-radius: 0 0 15px 15px"
+                id="contact"
+              >
+                <div class="row">
+                  <div class="col-lg-5">
+                    <div class="sec-head md-mb80">
+                      <h6 class="sub-title mb-15 opacity-7">Get In Touch</h6>
+                      <h2 class="fz-50">Let's make your brand brilliant!</h2>
+                      <p class="fz-15 mt-10">
+                        If you would like to work with us or just want to get in touch, we’d love to hear from you!
+                      </p>
+                      <div class="phone fz-30 fw-600 mt-30 underline">
+                        <a href="#0" class="main-color">contact@skistudios.net</a>
+                      </div>
+                      <ul class="rest social-text d-flex mt-60">
+                        <li class="mr-30">
+                          <a href="https://www.instagram.com/skistudios_" class="hover-this"
+                            ><span class="hover-anim">Instagram</span></a
+                          >
+                        </li>
+                        <li class="mr-30">
+                          <a href="https://www.facebook.com/skistudiosnbtx" class="hover-this"
+                            ><span class="hover-anim">Facebook</span></a
+                          >
+                        </li>
+                        <li class="mr-30">
+                          <a href="https://www.twitter.com/skistudios_" class="hover-this"
+                            ><span class="hover-anim">Twitter</span></a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://www.linkedin.com/in/ethan-pszanowski-038652293/" class="hover-this"
+                            ><span class="hover-anim">LinkedIn</span></a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-7 valign">
+                    <div class="full-width">
+                      <form id="contact-form">
+                        <div class="messages"></div>
+
+                        <div class="controls row">
+                          <div class="col-lg-6">
+                            <div class="form-group mb-30">
+                              <input id="form_name" type="text" name="name" placeholder="Name" required="required" />
+                            </div>
+                          </div>
+
+                          <div class="col-lg-6">
+                            <div class="form-group mb-30">
+                              <input
+                                id="form_email"
+                                type="email"
+                                name="email"
+                                placeholder="Email"
+                                required="required"
+                              />
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <div class="form-group mb-30">
+                              <input id="form_subject" type="text" name="subject" placeholder="Subject" />
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <div class="form-group">
+                              <textarea
+                                id="form_message"
+                                name="message"
+                                placeholder="Message"
+                                rows="4"
+                                required="required"
+                              ></textarea>
+                            </div>
+                            <div
+                              class="g-recaptcha mt-10"
+                              data-sitekey="6LcTP1soAAAAAHZfaUIu6BPYvI2BNRkpLCCOAHvV"
+                            ></div>
+
+                            <div class="mt-20">
+                              <button type="submit" value="send">
+                                <span class="text">Send A Message</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+              <!-- ==================== End Contact ==================== -->
+
+              <!-- ==================== Start Blog ==================== -->
+
+              <!-- ==================== End Blog ==================== -->
+            </div>
+          </section>
+        </main>
+
+        <!-- ==================== Start Footer ==================== -->
+
+        <footer class="pb-30 pt-30">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div class="text-center">
+                  <p class="fz-13">© 2023 Ski Studios. All Rights Reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- ==================== End Footer ==================== -->
+      </div>
+      <!-- jQuery -->
+      <script src="assets/js/jquery-3.6.0.min.js"></script>
+      <script src="assets/js/jquery-migrate-3.4.0.min.js"></script>
+      <!-- soundcloud -->
+      <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+      <script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+      <!-- plugins -->
+      <script src="assets/js/plugins.js"></script>
+
+      <script src="assets/js/ScrollTrigger.min.js"></script>
+
+      <!-- custom scripts -->
+      <script src="assets/js/scripts.js"></script>
+
+      <br />
+    </div>
+  </body>
+</html>
